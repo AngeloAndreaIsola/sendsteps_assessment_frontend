@@ -1,5 +1,14 @@
 # Getting Started with Create React App
 
+#Run with NPM
+    npm install
+    npm start
+
+#Run with Docker
+    docker build . -t angeloandreaisola/sendsteps_assessment_frontend  
+    docker run -p 3000:3000 -d angeloandreaisola/sendsteps_assessment_frontend   
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
